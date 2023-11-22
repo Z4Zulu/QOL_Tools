@@ -7,12 +7,12 @@
 `touch .tmux.conf`
 
 # The config file should have the following contents:
-# Change the prefix key to C-a
+#Change the prefix key to C-a
 set -g prefix C-a
 unbind C-b
 bind C-a send-prefix
 
-# Turn the mouse on, but without copy mode dragging
+#Turn the mouse on, but without copy mode dragging
 set -g mouse on
 set -g @yank_with_mouse on
 #unbind -n MouseDrag1Pane
@@ -21,7 +21,7 @@ bind -T copy-mode    C-c send -X copy-pipe-no-clear "xsel -i --clipboard"
 bind -T copy-mode-vi C-c send -X copy-pipe-no-clear "xsel -i --clipboard"
 
 
-# List of plugins
+#List of plugins
 
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-sensible'
