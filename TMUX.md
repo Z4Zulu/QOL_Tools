@@ -1,4 +1,5 @@
 Copy over tmux plugins to home dir
+
 `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 ---
 #Next, create a .tmux.conf file in the home directory.
