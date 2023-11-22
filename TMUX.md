@@ -2,8 +2,9 @@
 
 `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 ---
-#Next, create a .tmux.conf file in the home directory.
-touch .tmux.conf
+# Next, create a .tmux.conf file in the home directory
+
+`touch .tmux.conf`
 ---
 #The config file should have the following contents:
 # Change the prefix key to C-a
