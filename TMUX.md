@@ -5,8 +5,8 @@
 # Next, create a .tmux.conf file in the home directory
 
 `touch .tmux.conf`
----
-#The config file should have the following contents:
+
+# The config file should have the following contents:
 # Change the prefix key to C-a
 set -g prefix C-a
 unbind C-b
