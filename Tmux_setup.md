@@ -1,4 +1,4 @@
-# Download tmux Copy over tmux plugins to home dir
+# Download tmux + Copy over tmux plugins to home dir
 
 `sudo apt install tmux`
 
