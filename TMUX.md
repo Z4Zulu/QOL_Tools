@@ -1,10 +1,10 @@
 #Copy over tmux plugins to home dir
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
----
-2.Next, create a .tmux.conf file in the home directory.
+
+#Next, create a .tmux.conf file in the home directory.
 touch .tmux.conf
 ---
-3.The config file should have the following contents:
+#The config file should have the following contents:
 # Change the prefix key to C-a
 set -g prefix C-a
 unbind C-b
