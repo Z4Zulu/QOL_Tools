@@ -30,11 +30,11 @@ set -g @plugin 'tmux-plugins/tmux-resurrect'
 set -g @plugin 'tmux-plugins/tmux-yank'
 #set -g @yank_action 'copy-pipe-no-clear'
 
-# Initialize TMUX plugin manager (keep at bottom)
+#Initialize TMUX plugin manager (keep at bottom)
 run '~/.tmux/plugins/tpm/tpm'
 
-# Initialize TMUX plugin manager (keep at bottom)
+#Initialize TMUX plugin manager (keep at bottom)
 run '~/.tmux/plugins/tpm/tpm'
----
-4. Enable the source settings
+
+# Enable the source settings
 tmux source ~/.tmux.conf
