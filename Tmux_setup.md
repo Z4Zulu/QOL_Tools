@@ -38,4 +38,4 @@
 ```
 
 # Enable the source settings
-tmux source ~/.tmux.conf
+`tmux source ~/.tmux.conf`
