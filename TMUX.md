@@ -7,7 +7,7 @@
 `touch .tmux.conf`
 
 # The config file should have the following contents:
-
+```bash
   #Change the prefix key to C-a
   set -g prefix C-a
   unbind C-b
@@ -33,7 +33,7 @@
   
   #Initialize TMUX plugin manager (keep at bottom)
   run '~/.tmux/plugins/tpm/tpm'
-
+```
 
 # Enable the source settings
 tmux source ~/.tmux.conf
